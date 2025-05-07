@@ -1,0 +1,29 @@
+.logo {
+  display: flex; /*Alinha os itens verticalmente ao centro dentro do container flex*/
+  align-items: center; /*Alinha itens veriticalmente */
+  justify-content: center; /*alinha horizontalmente os itens no centro do containe*/
+  gap: 0.4rem; /*Aidicona um espaço entre os itens filhos*/
+  padding-top: 3.2rem; /*Adiciona um espaço no topo do cantainer*/
+}
+
+.logoLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: bold; /*Deixa o texto em negrito*/
+  font-size: 4.2rem; /*Definindo o tamanho da fonte*/
+  text-decoration: none; /*Remove sublinhado do link*/
+  color: var(--primary); /*Define a cor do texto*/
+  transition: all 0.1s ease-in-out; /**/
+}
+
+.logoLink:hover {
+  filter: brightness(80%)
+}
+
+.logoLink svg {
+  width: 6.4rem;
+  height: 6.4rem;
+}

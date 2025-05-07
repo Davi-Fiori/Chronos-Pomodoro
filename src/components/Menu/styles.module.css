@@ -1,0 +1,28 @@
+.menu {
+  display: flex; /*Alinha os itens verticalmente ao centro dentro do container flex*/
+  align-items: center; /*Alinha itens veriticalmente */
+  justify-content: center; /*alinha horizontalmente os itens no centro do containe*/
+  gap: 1.5rem; /*Aidicona um espaço entre os itens*/
+  padding-top: 3.2rem; /*Adiciona um espaço no topo do cantainer*/
+}
+
+.menuLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-decoration: none;
+  background: var(--primary);
+  color: var(--tex-over-primary);
+  transition: all 0.1s ease-in-out;
+  padding: 1rem;
+}
+
+.menuLink:hover {
+  filter: brightness(80%)
+}
+
+.menuLink svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}

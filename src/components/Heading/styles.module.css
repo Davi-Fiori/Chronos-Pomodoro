@@ -1,0 +1,8 @@
+.heading {
+    margin: 3.2rem 0; /*Margin em cima e embaixo*/
+    display: flex; /*Alinha os itens verticalmente ao centro dentro do container flex*/
+    align-items: center; /**/
+    justify-content: center;
+    gap: 2.4rem;
+}
+
