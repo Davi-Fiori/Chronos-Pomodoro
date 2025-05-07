@@ -1,5 +1,6 @@
 .logo {
   display: flex; /*Alinha os itens verticalmente ao centro dentro do container flex*/
+<<<<<<< HEAD
   align-items: center; /*Alinha itens veriticalmente */
   justify-content: center; /*alinha horizontalmente os itens no centro do containe*/
   gap: 0.4rem; /*Aidicona um espaço entre os itens filhos*/
@@ -7,11 +8,22 @@
 }
 
 .logoLink {
+=======
+  align-items: center; /**/
+  justify-content: center;
+  gap: 2.4rem;
+  padding-top: 20px;
+}
+
+.logoLink {
+  background: red;
+>>>>>>> 15b91b64b711bf32e714ff42e915e37d73bf703d
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
+<<<<<<< HEAD
   font-weight: bold; /*Deixa o texto em negrito*/
   font-size: 4.2rem; /*Definindo o tamanho da fonte*/
   text-decoration: none; /*Remove sublinhado do link*/
@@ -21,9 +33,17 @@
 
 .logoLink:hover {
   filter: brightness(80%)
+=======
+  font-weight: bold;
+  font-size: 4.2rem;
+  text-decoration: none;
+>>>>>>> 15b91b64b711bf32e714ff42e915e37d73bf703d
 }
 
 .logoLink svg {
   width: 6.4rem;
+<<<<<<< HEAD
   height: 6.4rem;
+=======
+>>>>>>> 15b91b64b711bf32e714ff42e915e37d73bf703d
 }
